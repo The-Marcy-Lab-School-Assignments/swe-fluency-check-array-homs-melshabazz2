@@ -57,14 +57,18 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-  // I would use .forEach to solve this.
+  users.forEach(user => {
+    console.log(`${user.name} scored ${user.score}`)
+  })
 };
-
+printUserNamesAndScores(sampleUsers)
 
 // Problem 7
 const getUserNames = (users) => {
-  // I would use .forEach to solve this.
+  return users.map(user => user.name)
 };
+const namesArray = getUserNames(sampleUsers)
+console.log(namesArray)
 
 
 // Problem 8
