@@ -57,13 +57,13 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+  // I would use .forEach to solve this.
 };
 
 
 // Problem 7
 const getUserNames = (users) => {
-
+  // I would use .forEach to solve this.
 };
 
 
